@@ -15,7 +15,12 @@ module Locomotive
 
           redirect_to(@page.redirect_url) and return if @page.present? && @page.redirect?
 
+
           render_no_page_error and return if @page.nil?
+          
+          current_path  = (params[:path] || request.fullpath).split('?').first 
+          redirect_to(@page.canonical_url) and return if @page.canonical_url && current_path != @page.canonical_url
+
 
           output = @page.render(locomotive_context)
 

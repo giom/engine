@@ -54,6 +54,21 @@ describe Page do
     end
   end
 
+  it 'should validate uniqueness of canonical_url in a site' do
+    site = Factory(:site)
+    page = Factory(:page, :canonical_url => "/test", :site => site)
+    (page = Factory.build(:page, :canonical_url => "/test", :site => site)).should_not be_valid
+    page.errors[:canonical_url].should == ["is already taken"]
+  end
+  
+  it 'should validate format of canonical_url' do
+    @page = Factory(:page)
+    @page.canonical_url = "invalid url with spaces"
+    @page.should_not be_valid
+    @page.errors[:canonical_url].should == ["is invalid"]
+  end
+
+
   # Named scopes ##
 
   # Associations ##

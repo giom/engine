@@ -20,6 +20,8 @@ class Page
   field :published, :type => Boolean, :default => false
   field :cache_strategy, :default => 'none'
 
+  field :canonical_url, :type => String
+
   ## associations ##
   referenced_in :site
 
@@ -38,6 +40,8 @@ class Page
   validates_presence_of     :site, :title, :slug
   validates_uniqueness_of   :slug, :scope => [:site_id, :parent_id]
   validates_exclusion_of    :slug, :in => Locomotive.config.reserved_slugs, :if => Proc.new { |p| p.depth == 0 }
+  validates_format_of       :canonical_url, :with => Locomotive::Regexps::URL, :allow_blank => true
+  validates_uniqueness_of   :canonical_url, :scope => [:site_id], :allow_blank => true
 
   ## named scopes ##
   scope :latest_updated, :order_by => [[:updated_at, :desc]], :limit => Locomotive.config.lastest_items_nb
