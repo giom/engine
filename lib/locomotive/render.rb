@@ -108,7 +108,7 @@ module Locomotive
           end
         end
 
-        render :text => output, :layout => false, :status => page_status
+        render :text => output, :layout => false, :status => page_status unless performed?
       end
 
       def not_found_page
@@ -116,7 +116,7 @@ module Locomotive
       end
 
       def editing_page?
-        self.params[:editing] == true && current_admin
+        @editing
       end
 
       def page_status
