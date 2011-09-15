@@ -66,6 +66,7 @@ module Locomotive
           Kernel.puts input.inspect
           Kernel.puts args.inspect
           image_options = inline_options(args_to_options(args))
+
           "<img src=\"#{theme_image_url(input)}\" #{image_options}/>"
         end
 
@@ -73,6 +74,7 @@ module Locomotive
         # input: url of the image OR asset drop
         def image_tag(input, *args)
           image_options = inline_options(args_to_options(args))
+
           "<img src=\"#{get_url_from_asset(input)}\" #{image_options}/>"
         end
 
