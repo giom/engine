@@ -10,6 +10,7 @@ gemspec # Include gemspec dependencies
 group :development do
   # gem 'custom_fields', :path => '../gems/custom_fields' # for Developers
   # gem 'custom_fields', :git => 'git://github.com/locomotivecms/custom_fields.git', :branch => '2.0.0.rc' # Branch on Github
+  gem 'custom_fields', :git => 'git://github.com/sdeframond/custom_fields.git', :branch => 'numeric_types' # Branch on Github
 
   # gem 'locomotive-aloha-rails', :path => '../gems/aloha-rails' # for Developers
 
