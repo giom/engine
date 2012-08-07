@@ -35,9 +35,16 @@ module Locomotive
         private
 
         def decode(attributes, context)
+          processed_attributes = {}
           attributes.each_pair do |key, value|
-            attributes[key] = context[value]
+            key_parts = key.to_s.split('.')
+            key = key_parts[0].to_sym
+            key_parts[1..key_parts.count].each do |part|
+              key = key.send part
+            end
+            processed_attributes[key] = context[value]
           end
+          processed_attributes
         end
       end
 
