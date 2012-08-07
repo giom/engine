@@ -42,7 +42,7 @@ module Locomotive
             key_parts[1..key_parts.count].each do |part|
               key = key.send part
             end
-            processed_attributes[key] = context[value]
+            processed_attributes[key] = context[value] unless context[value].blank?
           end
           processed_attributes
         end
