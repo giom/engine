@@ -1,0 +1,289 @@
+zh: 
+  "locomotive": 
+    "buttons": 
+      "login": "登录"
+      "send_password": "发送"
+      "change_password": "更新"
+      "new_item": "+ 添加"
+      "switch_to_site": "前往"
+      "delete": "删除"
+      "close": "关闭"
+    "locales": 
+      "en": "英语"
+      "de": "德语"
+      "fr": "法语"
+      "pt-BR": "巴西葡萄牙语"
+      "it": "意大利语"
+      "nl": "荷兰语"
+      "nb": "挪威语"
+      "es": "西班牙语"
+      "ru": "俄语"
+      "zh": "中文"
+    "messages": 
+      "confirm": "您确定吗？"
+      "sending_form": "正在提交您的表单"
+    "shared": 
+      "header": 
+        "welcome": "欢迎您，%{name}"
+        "see": "见网站"
+        "switch": "切换到另一个网站"
+        "help": "帮助"
+        "logout": "退出"
+      "menu": 
+        "contents": "内容"
+        "assets": "资源"
+        "settings": "设置"
+        "pages": "网页"
+        "snippets": "摘要"
+        "account": "我的帐户"
+        "site": "站点"
+        "theme_assets": "主题文件"
+      "form": 
+        "change_file": "更改"
+        "delete_file": "删除"
+        "cancel": "取消"
+      "form_actions": 
+        "back": "不保存并返回"
+        "create": "创建"
+        "update": "保存"
+        "send": "发送"
+        "disable_with": "待定……"
+      "list": 
+        "untranslated": "未翻译"
+      "footer": 
+        "who_is_behind": "LocomotiveCMS 由 %{development} 开发，并通过 <a href=\"http://www.sachagreif.com\">Sacha Greif</a> &mdash; %{version} <small>版</small>进行设计"
+    "errors": 
+      "500": 
+        "title": "应用程序出错"
+        "notice": "我们很抱歉，有些地方出错了"
+        "link": "&rarr; 回到应用程序"
+      "404": 
+        "title": "找不到网页"
+        "notice": "您所要求的网页不存在。"
+        "link": "&rarr; 返回到应用"
+    "notifications": 
+      "new_content_entry": 
+        "subject": "[%{type}] 新建"
+        "title": "%{name}您好，谨告知您已于 %{date} 创建了一个新的实例"
+        "type": "型号：%{type}"
+    "sites_picker": 
+      "new": "+ 新建站点"
+    "custom_fields": 
+      "edit": 
+        "title": "编辑自定义字段"
+      "text_formatting": 
+        "none": "一个也没有"
+        "html": "超文本标记语言（HTML）"
+      "types": 
+        "file": 
+          "delete_file": "删除文档"
+        "has_many": 
+          "empty": "列表为空白"
+          "new_entry": "+ 添加一个新的条目"
+        "many_to_many": 
+          "empty": "列表为空白。从以下的框中选择一个条目添加到列表。"
+      "form": 
+        "required": "规定项"
+        "default_label": "字段名"
+        "select_options": 
+          "ask_name": "输入选项的标签"
+    "sessions": 
+      "new": 
+        "title": "登录"
+        "link": "我忘记了我的密码"
+        "email": "电子邮件"
+        "password": "密码"
+    "passwords": 
+      "new": 
+        "title": "忘记密码"
+        "link": "&rarr; 回到登录页面"
+        "email": "您的电子邮件"
+      "edit": 
+        "title": "更新我的密码"
+        "link": "&rarr; 返回到登录页面"
+        "password": "您的新密码"
+        "password_confirmation": "您新密码的确认"
+    "pages": 
+      "index": 
+        "title": "清单页面"
+        "help": "所有页面已经以树状形式整理。您可订购多页和多个文件夹"
+        "no_items": "现在还没有网页。点击<a href=\"%{url}\">这里</a>创建第一页。"
+        "new": "新建网页"
+        "latest_entries": "最新的网页"
+      "new": 
+        "title": "新建网页"
+        "help": "请填写下面的表单创建您的网页。请注意，默认情况下，网页是不发布的。"
+      "page": 
+        "updated_at": "更新于"
+      "edit": 
+        "show": "显示"
+        "help": "可以通过点击网页标题使它更新。应用您的更改时，请点击“保存”键。"
+        "ask_for_title": "请输入新的网页标题"
+      "form": 
+        "change_file": "更改"
+        "delete_file": "删除"
+        "cancel": "取消"
+        "default_block": "默认"
+        "cache_strategy": 
+          "none": "无"
+          "simple": "简单"
+          "hour": "一小时"
+          "day": "一天"
+          "week": "一周"
+          "month": "一个月"
+    "snippets": 
+      "index": 
+        "title": "列表清单"
+        "help": "摘要是指 HTML 代码的部分，这些部分可以在站点内不同地方找到（例如页脚）。"
+        "no_items": "现在还没有摘要。点击<a href=\"%{url}\">这里</a>创建第一个摘要。"
+        "new": "新建摘要"
+      "new": 
+        "title": "新建摘要"
+        "help": "填写下面的表单以更新您的摘要。"
+      "edit": 
+        "title": "编辑摘要"
+        "help": "把您的摘要和这个流动代码列入您的网页模版中：<span class='code'>{% include '%{slug}' %}</span>。"
+      "snippet": 
+        "updated_at": "已更新于"
+    "sites": 
+      "new": 
+        "title": "新建站点"
+        "help": "填写下面的表单，创建您新的站点。"
+      "domains": 
+        "empty": "尚未有域名与该站点绑定。在下面添加您的域名即可。<b>请勿忘记为您的域名服务器（DNS）升级。</b>"
+    "current_site": 
+      "edit": 
+        "new_membership": "添加帐户"
+        "help": "可通过点击站点名称使它更新。应用您的更改时，请点击“保存”键。"
+        "ask_for_name": "请输入新的站点名称"
+    "memberships": 
+      "roles": 
+        "admin": "管理员"
+        "designer": "设计者"
+        "author": "作者"
+      "new": 
+        "title": "新会员"
+        "help": "请提供帐户电子邮件以作添加。如果电子邮件不存在，您将被重新定向到帐户创建表单。"
+    "accounts": 
+      "new": 
+        "title": "新建帐户"
+        "help": "填写下面的表单以添加一个新帐户。"
+    "my_account": 
+      "edit": 
+        "help": "可以通过点击您的名称使它更新。应用您的更改时，请点击“保存”键。"
+        "new_site": "新建站点"
+        "ask_for_name": "请输入您的新名称"
+    "theme_assets": 
+      "index": 
+        "title": "列表主题文件"
+        "help": "主题文件部分就是您管理您的布局、摘要……等等所需的文件的地方。如果您需要管理一个图片库，则创建一个新的内容类别。<br/><b>警告：</b>根据您的权利，您可能不会看到所有的资源。"
+        "quick_upload": "快速上载"
+        "new": "新建文件"
+        "snippets": "片段"
+        "css_and_js": "风格和 javascript"
+        "fonts": "字体"
+        "images": "图片"
+        "media": "媒体文件"
+        "no_items": "现在还没有文件。"
+      "asset": 
+        "updated_at": "已更新于"
+      "new": 
+        "title": "新建文件"
+        "help": "您可以选择上载任意一份文件或者复制/粘贴一份样式表或一份纯文本的 javascript。"
+      "edit": 
+        "title": "编辑 %{file}"
+        "help": "该资源可直接从这个网址获取：<a href='%{url}'>%{url}</a>"
+        "help_image": "把您的图片和这个流动代码列入您的网页模版或摘要中：<span class='code'>{{ '%{path}' | theme_image_tag }}</span>。<br/>您当前图片的尺寸：<b>%{width}px x %{height}px</b>。<br/>"
+        "help_javascript": "把您的 javascript 文件和这个流动代码列入您的网页模版或摘要中：<span class='code'>{{ '%{path}' | javascript_tag }}</span>。<br/>"
+        "help_stylesheet": "把您的样式表文件和这个代码列入您的网页模版或摘要中：<span class='code'>{{ '%{path}' | stylesheet_tag }}</span>。<br/>"
+      "form": 
+        "picker_link": "把一份文件插入代码中"
+        "choose_file": "选择文件"
+        "choose_plain_text": "选择纯文本"
+      "image_picker": 
+        "title": "插入主题图片"
+        "no_items": "现在还没有图片。"
+        "upload": "上载主题图片"
+    "content_assets": 
+      "picker": 
+        "title": "插入媒体文件"
+        "no_items": "现在还没有媒体文件。"
+        "upload": "上载媒体文件"
+    "content_types": 
+      "index": 
+        "new": "新建模型"
+        "edit": "编辑模型"
+      "new": 
+        "title": "新建模型"
+        "help": "创建您自己的数据模型（项目、人员……等等）。您的模型应至少有一个字段。由该内容类型创建的条目将会使其首个字段成为强制项。"
+      "edit": 
+        "title": "编辑模型"
+        "help": "您的模型至少应有一个字段。由该内容类型创建的条目将会使其首个字段成为强制项。"
+        "show_entries": "显示所有条目"
+        "new_entry": "新建条目"
+      "form": 
+        "order_by": 
+          "created_at": "按创建日期"
+          "updated_at": "按更新日期"
+          "position_in_list": "手动"
+        "order_direction": 
+          "asc": "升序"
+          "desc": "降序"
+    "content_entries": 
+      "index": 
+        "title": "列表“%{type}”"
+        "edit": "编辑模型"
+        "destroy": "删除模型"
+        "download": "下载条目"
+        "new": "新条目"
+        "category_noname": "没有名称"
+        "latest_entries": "最新条目"
+        "updated_at": "更新时间"
+      "list": 
+        "no_items": "现在还没有条目。点击<a href=\"%{url}\">这里</a>创建第一个条目。"
+      "new": 
+        "title": "%{type} &mdash; 新建条目"
+      "edit": 
+        "title": "%{type} &mdash; 编辑条目"
+      "form": 
+        "edit_select_options": "编辑选项"
+        "has_many": 
+          "new_entry": "新建条目"
+    "image_picker": 
+      "link": "把一张图片插入代码中"
+    "cross_domain_sessions": 
+      "new": 
+        "title": "跨域认证"
+        "notice": "在两秒种内，您将被重新定向到该网站。"
+    "installation": 
+      "common": 
+        "title": "首次 Locomotive 安装"
+        "next": "下一步"
+      "step_1": 
+        "title": "第 1/2 步 &mdash; 创建帐户"
+        "name": "帐户名称"
+        "email": "电子邮件"
+        "password": "密码"
+        "password_confirmation": "密码确认"
+        "done": "您已经添加了一个帐户：<br/><strong>%{name}</strong>，<em>%{email}</em>"
+        "next": "创建帐户"
+      "step_2": 
+        "title": "第 2/2 步 &mdash; 创建您的首个网站"
+        "explanations": "您已经基本完成了。请为您的首个站点设一个名称，并选定默认区域设置。"
+        "default_site_locale": "站点区域设置"
+        "default_site_locales_hints": "您可以稍后在设置面板中添加更多的区域设置。"
+        "next": "创建站点"
+    "public": 
+      "pages": 
+        "show_toolbar": 
+          "statuses": 
+            "loading": "正在加载……。"
+            "disabled": "行内编辑器已关闭"
+          "labels": 
+            "save_changes": "保存更改："
+            "editing_mode": "编辑模式："
+            "lang": "语言："
+          "buttons": 
+            "back": "返回后勤办公室（back-office）"
+            "confirm": "确认"
+            "cancel": "取消"

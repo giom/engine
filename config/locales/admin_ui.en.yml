@@ -19,6 +19,7 @@ en:
       nb: Norwegian
       es: Spanish
       ru: Russian
+      zh: Chinese
 
     messages:
       confirm: Are you sure ?

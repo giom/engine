@@ -1,0 +1,93 @@
+zh: 
+  "flash": 
+    "locomotive": 
+      "pages": 
+        "create": 
+          "notice": "页面已成功创建。"
+          "alert": "页面未创建。"
+        "update": 
+          "notice": "页面已成功更新。"
+          "alert": "页面未更新。"
+        "sort": 
+          "notice": "页面已成功排序。"
+        "destroy": 
+          "notice": "页面已成功删除。"
+      "content_entries": 
+        "create": 
+          "notice": "条目已成功创建。"
+          "alert": "条目未创建。"
+        "update": 
+          "notice": "条目已成功更新。"
+          "alert": "条目未更新。"
+        "sort": 
+          "notice": "条目已成功排序。"
+        "destroy": 
+          "notice": "条目已成功删除。"
+      "content_types": 
+        "create": 
+          "notice": "模型已成功创建。"
+          "alert": "模型未创建。"
+        "update": 
+          "notice": "模型已成功更新。"
+          "alert": "模型未更新。"
+        "destroy": 
+          "notice": "模型已成功删除。"
+      "current_site": 
+        "update": 
+          "notice": "我的网站已成功更新。"
+          "alert": "我的网站未更新。"
+      "snippets": 
+        "create": 
+          "notice": "片段已成功创建。"
+          "alert": "片段未创建。"
+        "update": 
+          "notice": "片段未成功更新。"
+          "alert": "片段未更新。"
+        "destroy": 
+          "notice": "片段未成功删除。"
+      "accounts": 
+        "create": 
+          "notice": "账户已成功创建。"
+          "alert": "账户未创建。"
+      "my_account": 
+        "update": 
+          "notice": "我的账户已成功更新。"
+          "alert": "我的账户未更新。"
+      "sites": 
+        "create": 
+          "notice": "网站已成功创建。"
+          "alert": "网站未创建。"
+        "destroy": 
+          "notice": "网站已成功删除。"
+      "memberships": 
+        "create": 
+          "notice": "会员已成功创建。"
+          "alert": "会员未创建。"
+          "already_created": "账户已添加到当前网站。"
+      "assets": 
+        "create": 
+          "notice": "资产已成功创建。"
+          "alert": "资产未创建。"
+        "update": 
+          "notice": "资产已成功更新。"
+          "alert": "资产未更新。"
+      "theme_assets": 
+        "create": 
+          "notice": "文档已成功创建。"
+          "alert": "文档未创建。"
+        "update": 
+          "notice": "文档已成功更新。"
+          "alert": "文档未更新。"
+        "destroy": 
+          "notice": "文档已成功删除。"
+      "custom_fields": 
+        "update": 
+          "alert": "域未更新"
+      "cross_domain_sessions": 
+        "create": 
+          "alert": "你需要登录"
+      "import": 
+        "create": 
+          "done": "你的网站已成功更新。"
+          "notice": "你的网站正在更新中。"
+          "alert": "导入未完成。"

@@ -1,0 +1,101 @@
+zh: 
+  "formtastic": 
+    "titles": 
+      "information": "信息总览"
+      "advanced_options": "高级选项"
+      "meta": "SEO元数据"
+      "seo": "SEO设置"
+      "robots_txt": "Robots.文本文件"
+      "code": "代码"
+      "raw_template": "模板"
+      "credentials": "证书"
+      "language": "语言"
+      "sites": "站点"
+      "access_points": "接入点"
+      "memberships": "账户"
+      "membership_email": "账户电子邮件"
+      "file": "文件"
+      "preview": "预览"
+      "options": "高级选项"
+      "custom_fields": "自定义字段"
+      "other_fields": "其他信息"
+      "presentation": "介绍"
+      "attributes": "属性"
+      "upload": "上传"
+    "labels": 
+      "theme_asset": 
+        "plain_text_name": "文件名称"
+        "content_type": "文件类型"
+        "new": 
+          "source": "文件"
+        "edit": 
+          "source": "代替文件"
+      "custom_fields": 
+        "field": 
+          "name": "Alias"
+      "content_type": 
+        "raw_item_template": "项目模板"
+        "public_submission_enabled": "公开提交"
+        "public_submission_accounts": "通知账户"
+        "custom_fields/field": 
+          "select_options": "选项"
+      "content_entry": 
+        "_slug": "永久链接"
+      "account": 
+        "edit": 
+          "locale": "UI语言"
+          "password": "新密码"
+          "password_confirmation": "新密码确认"
+      "page": 
+        "seo_title": "标题"
+        "target_klass_name": "模型"
+      "site": 
+        "locales": "语言"
+    "hints": 
+      "page": 
+        "handle": "利用外部控制器对该页面进行检索的唯一识别符"
+        "published": "仅通过身份验证的账户才能查看未发表的页面。"
+        "cache_strategy": "缓存页面以实现更佳效果。‘简单的’选择是不错的折中方案。"
+        "templatized": "使用您定义的页面作为模型模板。"
+        "listed": "控制是否从生成菜单显示页面。"
+        "target_klass_name": "该页面是用作模板内容的类型。"
+        "seo_title": "定义的一个页面标题应用作抬头部分中标题标签的值。如果想使用站点设置的默认值，就空着。"
+        "meta_keywords": "撤销用于页面标题标签站点的meta关键词。用逗号将它们隔开。"
+        "meta_description": "撤销用于页面标题标签站点的meta描述。"
+      "snippet": 
+        "slug": "你需要了解它的作用是在一个页面插入片段"
+      "site": 
+        "locales": "将一处标记拖放至第一的位置作为默认值。"
+        "seo_title": "此处定义的一个全局值应用作抬头部分的标题标签值。"
+        "meta_keywords": "meta关键字用于页面标题标签。用逗号将它们隔开。适用于SEO。"
+        "meta_description": "meta描述用于页面的标题标签。适用于SEO。"
+        "domain_name": "例如: locomotiveapp.org"
+        "robots_txt": "<span class='code'>/robots.文本</span> 文件内容。 检查以下 <a href='http://www.w3.org/TR/html4/appendix/notes.html#h-B.4.1.1'>url</a> 获取更多信息。"
+      "theme_asset": 
+        "slug": "无需添加扩展名文件(.css 或 .js)"
+        "edit": 
+          "source": "可以用同一扩展名文件代替。"
+      "asset": 
+        "source": "接受所有文件类型。"
+        "edit": 
+          "source": "此处当前文件有效 %{url}"
+        "update": 
+          "source": "当前文件此处有效 %{url}"
+      "content_entry": 
+        "_slug": "用于生成该内容类型模板页面url的属性 (例如：“模板_页面/{{ 你的_目标._永久链接 }})”。"
+        "seo_title": "填入的值将取代与你模型相关的模板化页面的SEO标题。"
+        "meta_keywords": "撤销用于页面标题标签站点的meta关键词。用逗号将它们隔开。"
+        "meta_description": "撤销用于页面标题标签站点的meta描述。"
+      "import": 
+        "source": "一份压缩文件内含一个包括资源和模板在内的yml数据库。"
+        "samples": "一旦启用，导入过程中还将会复制内容和资源。"
+        "reset": "一旦启用，你站点的所有数据将会在导入新站点之前遭到破坏。"
+      "content_type": 
+        "name": "我们建议您输入该模型的复数形式。例如：Projects, Recipes, Posts, Articles, ……等"
+        "slug": "这将被用作液体模板中的集合名称。例如：<span class='code'>{{ contents.my_projects }}</span>"
+        "raw_item_template": "你可以对列表中显示的每项文本内容进行自定义设置。仅使用Liquid。例如：<span class='code'>{{ entry.name }})</span>"
+        "public_submission_enabled": "此处用于让外来者创建新条目（如：用于交际的信息形式）"
+        "public_submission_accounts": "如果启用用于创建每个条目的公开提交选项，则发送一封通知邮件到上述账户。"
+        "custom_fields/field": 
+          "name": "液体模板的属性名称。例如：<span class='code'>&#123;&#123; your_object.&lt;name_of_your_field&gt; &#125;&#125;</span>"
+          "hint": "模板表格中的文本内容显示在字段下面。"
