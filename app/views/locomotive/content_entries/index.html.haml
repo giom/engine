@@ -20,6 +20,8 @@
         = render 'list', :content_type => @content_type, :entries => group[:entries]
 - else
   = render 'list', :content_type => @content_type, :entries => @content_entries
+  - if @page
+    = paginate @content_entries  
 
 - # Note: submenu has to be here in order to have the previous entries correctly rendered since we do not return
 - #       all the attributes of the content types in the following code (causing stale documents)

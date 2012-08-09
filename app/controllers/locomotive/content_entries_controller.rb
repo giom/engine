@@ -17,6 +17,10 @@ module Locomotive
 
     def index
       @content_entries = @content_type.list_or_group_entries
+      if !@content_type.groupable?
+        @content_entries = @content_entries.page(params[:page] || 1).per(params[:per_page] || 200)
+        @page = true
+      end
       respond_with @content_entries
     end
 
